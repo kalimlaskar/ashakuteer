@@ -55,7 +55,7 @@ body{
     border-radius: 50px;
 }
 .nav-link.active {
-    background-color: #154703 !important;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%) !important;
     color: #fff !important;
 }
 .nav-link{
@@ -79,7 +79,7 @@ body{
     padding: 20px 0px;
 }
 .btn-primary{
-    background: #154703 !important;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%) !important;
     border-color: #154703 !important;
 }
 
@@ -115,7 +115,7 @@ border:1px solid #ECECEC;
     display: grid;
     margin: -17px auto 0;
     width: auto;
-    background: #154703;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%);
     padding: 9px 35px;
     border-radius: 0px 0px 12px 12px;
     text-align: center;
@@ -125,7 +125,7 @@ border:1px solid #ECECEC;
 #customers-testimonials .item {
     text-align: center;
     padding: 50px;
-        margin-bottom:80px;
+    margin-bottom:80px;
     opacity: .2;
     -webkit-transform: scale3d(0.8, 0.8, 1);
     transform: scale3d(0.8, 0.8, 1);
@@ -145,7 +145,7 @@ border:1px solid #ECECEC;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-    background: #154703;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%);
     transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 #customers-testimonials.owl-carousel .owl-dots{
@@ -157,7 +157,7 @@ text-align: center;
 display: inline-block;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-    background: #154703;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%);
     display: inline-block;
     height: 20px;
     margin: 0 2px 5px;
@@ -191,7 +191,7 @@ border:1px solid #ECECEC;
     display: grid;
     margin: -17px auto 0;
     width: auto;
-    background: #154703;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%);
     padding: 9px 35px;
     border-radius: 0px 0px 12px 12px;
     text-align: center;
@@ -233,7 +233,7 @@ text-align: center;
 display: inline-block;
 }
 #our-children.owl-carousel .owl-dots .owl-dot span {
-    background: #154703;
+    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%);
     display: inline-block;
     height: 20px;
     margin: 0 2px 5px;
