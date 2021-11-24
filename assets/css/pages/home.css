@@ -1,65 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body{
-    font-family: 'Raleway', sans-serif;
-}
-.top-bar{
-    width:100%;
-}
-.top-bar__container{
-    justify-content: center !important;
-}
-.top-bar__donateBtn{
-    background: #db5e34;
-    padding: 10px;
-    color: #fff;
-}
-.top-bar__volunteer{
-    background: #f1b935;
-    padding: 10px;
-    color: #fff;
-    margin: 0px -5px;
-}
-.top-bar__contact{
-    background: #26b5ae;
-    padding: 10px;
-    color: #fff;
-}
-.top-bar .col-md-7{
+.bnr-logo{
     display: flex;
-    justify-content: flex-end;
-}
-.top-bar .col-md-5{
-    display: grid;
     justify-content: center;
-    flex-direction: column;
-    align-content: center;
 }
-.header-logo-img{
-    width: 150px;
+.home-about .col-md-6{
+    display: flex;
+    align-items: center;
 }
-.nav-menu .nav{
-    align-content: center;
+.home-about {
+    margin: 80px 0px;
 }
-.col-md-7.text-end{
-    padding: 0px;
+.home-about .col-md-6:nth-child(1), .home-vision .col-md-6:nth-child(2), .home-mission .col-md-6:nth-child(1){
+    padding:60px !important;
 }
-.navbar{
-    padding: 0px;
+.home-vision .col-md-6{
+    display: flex;
+    align-items: center;
 }
-.top-bar__phonenumber span{
-    background-color: black;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 0px 10px;
-    border-radius: 50px;
+.home-mission {
+    margin: 80px 0px;
 }
-.nav-link.active {
-    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%) !important;
-    color: #fff !important;
+.home-mission .col-md-6{
+    display: flex;
+    align-items: center;
 }
-.nav-link{
-    color: #154703 !important;
+.home-vision {
+    margin: 80px 0px;
 }
 .home-featured{
     text-align: center;
@@ -110,7 +75,16 @@ border:1px solid #ECECEC;
     margin: 0 0 17px 0;
     font-weight: 300;
 }
-
+/* .testimonials{
+    background: url('../../testimonials.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.footer{
+    background: url('../../footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
 .testimonial-name {
     display: grid;
     margin: -17px auto 0;
