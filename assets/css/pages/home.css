@@ -83,7 +83,7 @@ border:1px solid #ECECEC;
 .footer{
     background: url('../../footer.jpeg');
     background-repeat: no-repeat;
-    background-size: contain;   
+    background-size: cover;   
 }
 .testimonial-name {
     display: grid;
