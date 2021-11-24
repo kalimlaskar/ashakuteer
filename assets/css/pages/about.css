@@ -1,0 +1,20 @@
+.about_dsc{
+    padding: 80px 0px;
+}
+.about_dsc .col-md-6{
+    /* display: grid;
+    align-content: center; */
+}
+.about-dsc .title{
+    color: #154703;
+}
+.about-dsc .title p{
+    color: #000;
+}
+.about_dsc .about_img{
+    padding: 0px 50px;
+}
+.carousel-item{
+    height: 50vh;
+    object-fit: contain;
+}
