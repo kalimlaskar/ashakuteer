@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    background: linear-gradient(90deg, rgba(217,242,236,1) 37%, rgba(191,218,191,1) 71%);
 }
 
 .top-bar{
@@ -56,9 +57,14 @@ body{
     border-radius: 50px;
 }
 .nav-link.active {
-    background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%) !important;
-    color: #fff !important;
+    /* background: linear-gradient(180deg, #154703 0%, rgb(54 102 40) 80%) !important;
+    color: #fff !important; */
+    background: #fdd2d2 !important;
+    color: #000 !important;
+    font-weight: 600;
 }
 .nav-link{
-    color: #154703 !important;
+    /* color: #154703 !important; */
+    color: #000 !important;
+    font-weight: 600;
 }
