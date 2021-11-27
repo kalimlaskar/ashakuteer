@@ -4,7 +4,9 @@ body{
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(90deg, rgba(217,242,236,1) 37%, rgba(191,218,191,1) 71%);
 }
-
+.container{
+    max-width: 1240px;
+}
 .top-bar{
     width:100%;
 }
