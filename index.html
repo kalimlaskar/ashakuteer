@@ -45,8 +45,37 @@
             <header class="d-flex flex-wrap justify-content-center py-3">
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Our Homes</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Introduction</a></li>
+                          <li><a class="dropdown-item" href="#">How it Began</a></li>
+                          <li><a class="dropdown-item" href="#">Founder</a></li>
+                          <li><a class="dropdown-item" href="#">Board of Director</a></li>
+                          <li><a class="dropdown-item" href="#">What We Do</a></li>
+                        </ul>
+                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Kids
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Life Stories</a></li>
+                          <li><a class="dropdown-item" href="#">Kids Profiles</a></li>
+                        </ul>
+                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Boys Home</a></li>
+                          <li><a class="dropdown-item" href="#">Girls Home</a></li>
+                          <li><a class="dropdown-item" href="#">Blind Home</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
@@ -90,10 +119,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="featured-description">
+                        <h2>About Us</h2>
                         <p>Asha Kuteer Foundation is a non-profit organization which provides a safe home for girls, boys and the blind, respectively, which are destitute, orphaned or marginalised. The phrase ‘ASHA KUTEER’ means ‘the home of hope’. As the adage says, that man can live without food for 40 days, without water for 3 days, and without air for 8 minutes, but not a second without Hope. Asha Kuteer Foundation, based in Hyderabad, was established in January 2013 with only four children. Today, we house 70 children in the three different homes. </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="about-img">
                         <img
                             src="assets/about.png">
@@ -105,7 +135,7 @@
     <div class="container">
         <div class="home-vision">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="vision-img">
                         <img
                             src="assets/vision.png">
@@ -113,6 +143,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="featured-description">
+                        <h2>Our Vision</h2>
                         <p>To ensure that destitute and disadvantaged children grow to be valued members of society with a promising future and a memorable past, empowering them to lead productive lives beyond the orphanage and to become contributing members of the community and leaders of the next generation.
                         </p>
                     </div>
@@ -125,11 +156,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="featured-description">
+                        <h2>
+                        Our Mission
+                        </h2>
                         <p>To meet the physical, emotional, spiritual and educational needs of orphaned and/or destitute children by providing them with love, care, nourishment, guidance, and the highest level of education.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="mission-img">
                         <img
                             src="assets/mission.png">
@@ -320,44 +354,62 @@
         </div>
     </section>
     <!-- END OF TESTIMONIALS -->
-    <footer class="pt-4 my-md-5 pt-md-5 border-top footer">
+    <footer class="pt-4 pt-md-5 border-top footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-2">
                     <img class="mb-2" src="https://ashakuteer.org/wp-content/uploads/logo.png" alt="" width="24"
                         height="19">
                     <small class="d-block mb-3 text-muted">&copy; 2021</small>
                 </div>
-                <div class="col-6 col-md-3">
-                    <h5>Features</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
-                                developers</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-                    </ul>
+                <div class="col-6 col-md-4">
+                    <h5>Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <ul class="list-unstyled text-small">
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Home</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Introduction</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">How it Began</a></li>
+                                <!-- <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Founder</a></li> -->
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Board of Director</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">What we Do</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <ul class="list-unstyled text-small">
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Life Stories</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Kids Profile</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Donate</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Gallery</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Volunteer</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h5>Resources</h5>
+                    <h5>Projects</h5>
                     <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Boys Home</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Girls Home</a></li>
                         </li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Blind Home</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-3">
-                    <h5>About</h5>
-                    <ul class="list-unstyled text-small">
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-                    </ul>
+                    <h5>Contact</h5>
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <ul class="list-unstyled text-small">
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Boys Home</a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Blind Home</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <ul class="list-unstyled text-small">
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Girls Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
